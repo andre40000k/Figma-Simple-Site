@@ -51,7 +51,6 @@ a {
   padding: 0;
 
   white-space: nowrap;
-  clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
@@ -119,7 +118,7 @@ a {
 .section {
   padding-top: 113px;
   padding-bottom: 91px;
-  padding-left: 13px;
+  padding-left: 12px;
 }
 .section__title {
   font-size: 2rem;
@@ -137,7 +136,7 @@ a {
 .experience {
   background-color: var(--color-primary);
   color: var(--color-white);
-  padding: 100px 0 92px 19px;
+  padding: 100px 0 92px 18px;
 }
 .experience__container {
   display: flex;
