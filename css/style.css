@@ -37,7 +37,6 @@ html {
   font-family: var(--font-family);
   font-weight: var(--front-weight-md);
   line-height: var(--line-height-primary);
-  color: var(--color-black);
   text-align: left;
 }
 a {
@@ -98,13 +97,14 @@ a {
   font-size: 3rem;
   font-weight: var(--front-weight-lg);
   line-height: calc( var(--line-height-primary) * 3);
+  color: var(--color-black);
   margin-bottom: 34px;
 }
 .content__description {
   padding-left: 1px;
   margin-bottom: 56px;
-  color: var(--color-black);
-  text-align: center;
+  color: var(--color-secondary);
+  text-align: left;
 }
 .content__link {
   min-width: 225px;
@@ -127,6 +127,7 @@ a {
 .section__title {
   font-size: 2rem;
   font-weight: var(--front-weight-lg);
+  color: var(--color-black);
   line-height: 37.5px;
   text-align: center;
   padding-bottom: 39px;
@@ -135,6 +136,7 @@ a {
   color: var(--color-black);
   font-weight: var(--front-weight-md);
   line-height: var(--line-height-primary);
+  color: var(--color-secondary);
   text-align: center;
 }
 
