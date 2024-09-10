@@ -15,7 +15,7 @@
   --line-height-lg: 1.64;
 
   --container-primary: 1110px;
-  --container-sm: 540;
+  --container-sm: 540px;
 
   --front-weight-sm: 300;
   --front-weight-md: 400;
@@ -37,6 +37,7 @@ html {
   font-family: var(--font-family);
   font-weight: var(--front-weight-md);
   line-height: var(--line-height-primary);
+  color: var(--color-black);
   text-align: left;
 }
 a {
@@ -83,7 +84,7 @@ a {
   color: var(--color-primary);
   font-weight: var(--front-weight-lg);
 }
-.navbar-link--weight--default {
+.navbar-link--weight-default {
   font-weight: var(--front-weight-md);
 }
 .content {
@@ -103,6 +104,7 @@ a {
   padding-left: 1px;
   margin-bottom: 56px;
   color: var(--color-black);
+  text-align: center;
 }
 .content__link {
   min-width: 225px;
@@ -152,7 +154,7 @@ a {
   gap: var(--gap);
   padding-right: 20px;
 }
-.experience-item--pading--sm {
+.experience-item--pading-sm {
   padding-left: 1px;
   padding-right: 16px;
 }
