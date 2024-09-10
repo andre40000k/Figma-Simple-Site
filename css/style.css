@@ -83,7 +83,7 @@ a {
   color: var(--color-primary);
   font-weight: var(--front-weight-lg);
 }
-.navbar-link--weight-default {
+.navbar-link--weight-md {
   font-weight: var(--front-weight-md);
 }
 .content {
