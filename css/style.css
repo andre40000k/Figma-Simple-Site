@@ -133,7 +133,6 @@ a {
   padding-bottom: 39px;
 }
 .section__description {
-  color: var(--color-black);
   font-weight: var(--front-weight-md);
   line-height: var(--line-height-primary);
   color: var(--color-secondary);
