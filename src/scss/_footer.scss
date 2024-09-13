@@ -1,0 +1,25 @@
+@import '_variables';
+
+.footer {
+  padding: 50px 0 44px;
+  background-color: $color-primary;
+  color: $color-white;
+
+  &__name {
+    font-size: 21px;
+    font-weight: $font-weight-lg;
+    line-height: 24.61px;
+    text-align: left;
+    padding-bottom: 11px;
+    padding-left: 7px;
+  }
+
+  &__copyright {
+    font-size: 13px;
+    font-weight: $font-weight-md;
+    line-height: 21.33px;
+    text-align: left;
+    padding-left: 7px;
+  }
+}
+

@@ -1,0 +1,25 @@
+@import '_variables';
+
+.navbar {
+  margin-bottom: 112px;
+
+  &-list {
+    display: flex;
+    gap: $gap-lg;
+  }
+
+  &-link {
+    color: $color-black;
+    letter-spacing: $letter-spacing;
+    padding: $gap-sm 3px $gap-sm 0;
+
+    &--active {
+      color: $color-primary;
+      font-weight: $font-weight-lg;
+    }
+
+    &--weight-md {
+      font-weight: $font-weight-md;
+    }
+  }
+}

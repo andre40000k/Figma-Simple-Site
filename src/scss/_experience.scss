@@ -1,0 +1,41 @@
+@import '_variables';
+
+.experience {
+  background-color: $color-primary;
+  color: $color-white;
+  padding: 100px 0 92px 18px;
+
+  &__container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    gap: $gap-md;
+  }
+
+  &-item {
+    display: flex;
+    gap: $gap;
+    padding-right: 20px;
+
+    &--padding-sm {
+      padding-left: 1px;
+      padding-right: 16px;
+    }
+
+    &__description {
+      display: flex;
+      flex-direction: column;
+    }
+
+    &__number {
+      font-size: 1.3125rem;
+      font-weight: $font-weight-lg;
+      padding-top: 2px;
+      padding-bottom: 1px;
+    }
+
+    &__image {
+      order: -1;
+    }
+  }
+}

@@ -1,0 +1,24 @@
+@import '_variables';
+
+.section {
+  background-color: $color-light;
+  padding-top: 113px;
+  padding-bottom: 91px;
+  padding-left: 12px;
+
+  &__title {
+    font-size: 2rem;
+    font-weight: $font-weight-lg;
+    color: $color-black;
+    line-height: 37.5px;
+    text-align: center;
+    padding-bottom: 39px;
+  }
+
+  &__description {
+    font-weight: $font-weight-md;
+    line-height: $line-height-primary;
+    color: $color-secondary;
+    text-align: center;
+  }
+}
