@@ -183,7 +183,7 @@ a {
 }
 .video__iframe {
   border: 0;
-  width: 1116px;
+  width: 100%;
   height: 600px;
   top: 1613px;
   left: 405px;
@@ -214,8 +214,7 @@ a {
 
 @media (min-width: 768px) and (max-width: 1023px) {
   .navbar-list {
-    flex-direction: row;
-    gap: var(--gap);
+    gap: var(--gap-md);
   }
 
   .content__title {
@@ -246,10 +245,6 @@ a {
 
   .experience {
     padding: 80px 0;
-  }
-
-  .experience-item {
-    flex-direction: row;
   }
 
   .video__iframe {
@@ -301,11 +296,6 @@ a {
 
   .experience {
     padding: 60px 0;
-  }
-
-  .experience-item {
-    flex-direction: column;
-    padding-right: 0;
   }
 
   .video__iframe {
