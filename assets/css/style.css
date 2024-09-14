@@ -51,43 +51,12 @@ a
 {
     width: min(100% - 40px, 540px);
 }
-
 .header
 {
     padding-top: 79px;
     padding-bottom: 141px;
 
     background-color: #eeeff1;
-}
-.header .navbar
-{
-    margin-bottom: 112px;
-}
-.header .navbar-list
-{
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-
-    gap: 40px;
-}
-.header .navbar-link
-{
-    padding: 10px 3px 10px 0;
-
-    letter-spacing: .1em;
-
-    color: #000;
-}
-.header .navbar-link--active
-{
-    font-weight: 500;
-
-    color: #34547a;
-}
-.header .navbar-link--weight-md
-{
-    font-weight: 400;
 }
 
 .navbar
@@ -120,7 +89,6 @@ a
 {
     font-weight: 400;
 }
-
 .content
 {
     display: -webkit-box;
@@ -178,7 +146,6 @@ a
     -ms-flex-align: center;
     align-items: center;
 }
-
 .section
 {
     padding-top: 113px;
@@ -208,7 +175,6 @@ a
 
     color: #727272;
 }
-
 .experience
 {
     padding: 100px 0 92px 18px;
@@ -269,7 +235,6 @@ a
     -ms-flex-order: -1;
     order: -1;
 }
-
 .video
 {
     background-color: #f9f9f9;
@@ -283,7 +248,6 @@ a
 
     border: 0;
 }
-
 .footer
 {
     padding: 50px 0 44px;
@@ -311,4 +275,112 @@ a
     padding-left: 7px;
 
     text-align: left;
+}
+@media (min-width: 375px) and (max-width: 767px)
+{
+    .container
+    {
+        width: 100%;
+        padding: 0 15px;
+    }
+    .navbar-list
+    {
+            flex-direction: column;
+
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        gap: 10px;
+    }
+    .content__title
+    {
+        font-size: 2.5rem;
+        line-height: 52.5px;
+    }
+    .content__description
+    {
+        font-size: .875rem;
+
+        margin-bottom: 40px;
+    }
+    .content__link
+    {
+        font-size: .875rem;
+
+        min-width: 180px;
+        min-height: 50px;
+    }
+    .section
+    {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    .section__title
+    {
+        font-size: 1.5rem;
+
+        padding-bottom: 30px;
+    }
+    .experience
+    {
+        padding: 60px 0;
+    }
+    .video__iframe
+    {
+        width: 100%;
+        height: auto;
+    }
+    .footer
+    {
+        padding: 30px 0;
+    }
+}
+@media (min-width: 768px) and (max-width: 1023px)
+{
+    .navbar-list
+    {
+        gap: 30px;
+    }
+    .content__title
+    {
+        font-size: 2.5rem;
+        line-height: 65.625px;
+    }
+    .content__description
+    {
+        font-size: 1rem;
+
+        margin-bottom: 50px;
+    }
+    .content__link
+    {
+        font-size: 1rem;
+
+        min-width: 200px;
+        min-height: 60px;
+    }
+    .section
+    {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+    .section__title
+    {
+        font-size: 1.75rem;
+
+        padding-bottom: 35px;
+    }
+    .experience
+    {
+        padding: 80px 0;
+    }
+    .video__iframe
+    {
+        width: 100%;
+        height: auto;
+    }
+    .footer
+    {
+        padding: 40px 0;
+    }
 }

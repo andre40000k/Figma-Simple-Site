@@ -1,4 +1,5 @@
-@import '_variables';
+@import "../variables/variables";
+@import "../core/mixins/mixins.scss";
 
 .navbar {
   margin-bottom: 112px;
@@ -21,5 +22,18 @@
     &--weight-md {
       font-weight: $font-weight-md;
     }
+  }
+}
+
+@include respond-to(768px, 1023px) {
+  .navbar-list {
+    gap: $gap-md;
+  }
+}
+
+@include respond-to(375px, 767px) {
+  .navbar-list {
+    flex-direction: column;
+    gap: $gap-sm;
   }
 }

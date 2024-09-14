@@ -1,0 +1,76 @@
+@import "../variables/variables";
+@import "../core/mixins/mixins.scss";
+
+.content {
+  display: flex;
+  flex-direction: column;
+  max-width: 540px;
+  align-items: flex-start;
+
+  &__title {
+    font-size: 3rem;
+    font-weight: $font-weight-lg;
+    line-height: calc($line-height-primary * 3);
+    color: $color-black;
+    margin-bottom: 34px;
+  }
+
+  &__description {
+    padding-left: 1px;
+    margin-bottom: 56px;
+    color: $color-secondary;
+    text-align: left;
+  }
+
+  &__link {
+    min-width: 225px;
+    min-height: 65px;
+    color: $color-white;
+    background-color: $color-primary;
+    letter-spacing: $letter-spacing;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 7px;
+  }
+}
+
+@include respond-to(768px, 1023px) {
+  .content {
+    &__title {
+      font-size: 2.5rem;
+      line-height: calc($line-height-primary * 2.5);
+    }
+
+    &__description {
+      font-size: 1rem;
+      margin-bottom: 50px;
+    }
+
+    &__link {
+      min-width: 200px;
+      min-height: 60px;
+      font-size: 1rem;
+    }
+  }
+}
+
+@include respond-to(375px, 767px) {
+  .content {
+    &__title {
+      font-size: 2.5rem;
+      line-height: calc($line-height-primary * 2);
+    }
+
+    &__description {
+      font-size: 0.875rem;
+      margin-bottom: 40px;
+    }
+
+    &__link {
+      min-width: 180px;
+      min-height: 50px;
+      font-size: 0.875rem;
+    }
+  }
+}

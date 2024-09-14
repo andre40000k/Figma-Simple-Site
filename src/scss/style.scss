@@ -1,10 +1,11 @@
-@use '_variables';
-@use 'global';
-@use 'container';
-@use 'header';
-@use 'navbar';
-@use 'content';
-@use 'section';
-@use 'experience';
-@use 'video';
-@use 'footer';
+@use 'variables/variables';
+@use 'core/global';
+@use 'core/container';
+@use 'header/header';
+@use 'header/navbar';
+@use 'header/content';
+@use 'main/section';
+@use 'main/experience';
+@use 'main/video';
+@use 'footer/footer';
+

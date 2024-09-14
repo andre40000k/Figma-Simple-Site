@@ -1,0 +1,28 @@
+@import "../variables/variables";
+@import "../core/mixins/mixins.scss";
+
+.video {
+  background-color: $color-light;
+
+  &__iframe {
+    border: 0;
+    width: 100%;
+    height: 600px;
+    padding-left: 6px;
+    margin-bottom: 92px;
+  }
+}
+
+@include respond-to(768px, 1023px) {
+  .video__iframe {
+    width: 100%;
+    height: auto;
+  }
+}
+
+@include respond-to(375px, 767px) {
+  .video__iframe {
+    width: 100%;
+    height: auto;
+  }
+}
