@@ -1,11 +1,10 @@
-@use 'variables/variables';
-@use 'core/global';
-@use 'core/container';
-@use 'header/header';
-@use 'header/navbar';
-@use 'header/content';
-@use 'main/section';
-@use 'main/experience';
-@use 'main/video';
-@use 'footer/footer';
-
+@import "variables/variables";
+@import "core/global";
+@import "core/container";
+@import "header/header";
+@import "header/navbar";
+@import "header/content";
+@import "main/section";
+@import "main/experience";
+@import "main/video";
+@import "footer/footer";

@@ -26,8 +26,8 @@
 
 @include respond-to(768px, 1023px) {
   .section {
-    padding-top: 80px;
-    padding-bottom: 80px;
+    padding-top: $pading-md;
+    padding-bottom: $pading-md;
 
     &__title {
       font-size: 1.75rem;
@@ -38,8 +38,8 @@
 
 @include respond-to(375px, 767px) {
   .section {
-    padding-top: 60px;
-    padding-bottom: 60px;
+    padding-top: $pading-sm;
+    padding-bottom: $pading-sm;
 
     &__title {
       font-size: 1.5rem;

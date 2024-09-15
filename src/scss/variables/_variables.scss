@@ -5,6 +5,8 @@ $color-gray-light: #eeeff1;
 $color-light: #f9f9f9;
 $color-white: #ffffff;
 
+$base-variable: 20px;
+
 $font-size: 16px;
 $font-family: "Roboto", sans-serif;
 $letter-spacing: 0.1em;
@@ -22,3 +24,17 @@ $gap: 20px;
 $gap-sm: calc($gap / 2);
 $gap-md: calc($gap * 1.5);
 $gap-lg: calc($gap * 2);
+
+$max-width: 540px;
+$width-lg: 225px;
+$width-md: 200px;
+$width-sm: 180px;
+
+$max-height: 600px;
+$height-lg: 65px;
+$height-md: 60px;
+$height-sm: 50px;
+
+$pading-lg: 100px;
+$pading-md: 80px;
+$pading-sm: 60px;

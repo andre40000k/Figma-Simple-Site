@@ -4,7 +4,7 @@
 .content {
   display: flex;
   flex-direction: column;
-  max-width: 540px;
+  max-width: $max-width;
   align-items: flex-start;
 
   &__title {
@@ -23,8 +23,8 @@
   }
 
   &__link {
-    min-width: 225px;
-    min-height: 65px;
+    min-width: $width-lg;
+    min-height: $height-lg;
     color: $color-white;
     background-color: $color-primary;
     letter-spacing: $letter-spacing;
@@ -48,8 +48,8 @@
     }
 
     &__link {
-      min-width: 200px;
-      min-height: 60px;
+      min-width: $width-md;
+      min-height: $height-md;
       font-size: 1rem;
     }
   }
@@ -68,8 +68,8 @@
     }
 
     &__link {
-      min-width: 180px;
-      min-height: 50px;
+      min-width: $width-sm;
+      min-height: $height-sm;
       font-size: 0.875rem;
     }
   }
